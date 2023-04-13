@@ -1,13 +1,8 @@
 class CodersArray {
   length = 0;
-  push;
-  some;
-  find;
-  filter;
-  map;
 
   constructor(...values) {
-    for (const iterator of values) {
+    for (const value of values) {
       this.length++;
     }
   }
