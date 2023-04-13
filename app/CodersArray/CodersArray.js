@@ -3,6 +3,7 @@ class CodersArray {
 
   constructor(...values) {
     for (const value of values) {
+      this[this.length] = value;
       this.length++;
     }
   }
